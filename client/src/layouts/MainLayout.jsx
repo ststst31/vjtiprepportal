@@ -134,7 +134,7 @@ function MainLayout() {
         </div>
 
         {/* PREP-PORTAL brand text */}
-        <div style={{
+        <div className="brandText" style={{
           display: 'flex',
           alignItems: 'center',
           paddingRight: '24px',
@@ -155,7 +155,7 @@ function MainLayout() {
         </div>
 
         {/* Search Bar — fills remaining space */}
-        <div style={{
+        <div className="searchContainer" style={{
           flex: 1,
           display: 'flex',
           alignItems: 'center',
@@ -198,7 +198,7 @@ function MainLayout() {
         </div>
 
         {/* Sign Out */}
-        <div style={{
+        <div className="hide-on-mobile" style={{
           display: 'flex',
           alignItems: 'center',
           borderLeft: '1px solid rgba(255,255,255,0.15)',

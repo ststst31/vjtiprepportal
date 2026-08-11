@@ -171,10 +171,10 @@ function EditProfile({ user, setLoggedInUser }) {
             Placement Roadmap Steps
           </h3>
 
-          <div style={{ display: "flex", gap: "10px", marginBottom: "14px" }}>
+          <div style={{ display: "flex", gap: "10px", marginBottom: "14px", flexWrap: "wrap" }}>
             <input
-              style={{ ...styles.input, margin: 0, flex: 1 }}
-              placeholder="e.g. Google Software Engineering Intern"
+              style={{ ...styles.input, margin: 0, flex: 1, minWidth: "150px" }}
+              placeholder="e.g. Google SWE Intern"
               value={stepText}
               onChange={(e) => setStepText(e.target.value)}
             />
@@ -196,7 +196,7 @@ function EditProfile({ user, setLoggedInUser }) {
               <option value="Placed">Placed</option>
             </select>
 
-            <button onClick={addStep} style={styles.addBtn}>
+            <button onClick={addStep} style={{...styles.addBtn, minWidth: "100px"}}>
               + Add Step
             </button>
           </div>
