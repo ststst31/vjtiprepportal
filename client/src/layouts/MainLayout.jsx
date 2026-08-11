@@ -12,7 +12,7 @@ import { FiHome, FiBookOpen, FiUser, FiBriefcase, FiLogOut, FiEdit3 } from "reac
 function MainLayout() {
   const [darkMode, setDarkMode] = useState(false);
   const [isDark, setIsDark] = useState(false);
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(window.innerWidth > 768);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -20,6 +20,24 @@ function MainLayout() {
     document.body.classList.toggle("dark", darkMode);
     setIsDark(darkMode);
   }, [darkMode]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setSidebarOpen(true);
+      } else {
+        setSidebarOpen(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    if (window.innerWidth <= 768) {
+      setSidebarOpen(false);
+    }
+  }, [location.pathname]);
 
   const handleLogout = () => {
     localStorage.removeItem("user");
@@ -67,6 +85,12 @@ function MainLayout() {
         transition: 'padding-left 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
       }}
     >
+
+      {/* Mobile Backdrop */}
+      <div 
+        className={`mobile-backdrop ${sidebarOpen ? 'open' : ''}`}
+        onClick={() => setSidebarOpen(false)}
+      />
 
       {/* Full-page left sidebar */}
       <div style={{
