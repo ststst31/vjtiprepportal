@@ -1,22 +1,37 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
 import darkLogo from "../../assets/darklogo.png";
 import CreatePostCard from "../../components/CreatePostCard";
 import PostCard from "../../components/PostCard";
 
 export default function AllDiscussions() {
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [posts, setPosts] = useState([
+    {
+        _id: "mock1",
+        title: "Morgan Stanley IT Interview Experience (Selected)",
+        content: "Hey everyone! Just wanted to share my experience interviewing for the Summer Analyst role at Morgan Stanley. The process consisted of 1 coding round and 3 technical interviews. Focus heavily on OOPs concepts and Data Structures (especially DP and graphs). I've attached my preparation notes below. Let me know if anyone has questions!",
+        tag: "Internship Prep",
+        author: "Aarav Sharma",
+        upvotes: ["u1", "u2", "u3"],
+        comments: [
+            { author: "Priya Patel", content: "This is super helpful, thanks!", createdAt: new Date().toISOString() }
+        ],
+        createdAt: new Date().toISOString()
+    },
+    {
+        _id: "mock2",
+        title: "DBMS Notes for Endsems - B.Tech CS",
+        content: "I've compiled all the crucial topics for our upcoming DBMS endsems, including SQL queries, Normalization (1NF to BCNF), and transaction concurrency control. Attached the Google Drive link. Hope it helps!",
+        tag: "Branch Notes",
+        author: "Neha Desai",
+        upvotes: ["u1", "u2", "u3", "u4", "u5"],
+        comments: [],
+        createdAt: new Date(Date.now() - 86400000).toISOString()
+    }
+  ]);
+  const [loading, setLoading] = useState(false);
 
   const fetchPosts = async () => {
-    try {
-      const res = await axios.get("http://localhost:5000/posts");
-      setPosts(res.data);
-    } catch (err) {
-      console.log(err);
-    } finally {
-      setLoading(false);
-    }
+    // No-op for local mock
   };
 
   useEffect(() => {

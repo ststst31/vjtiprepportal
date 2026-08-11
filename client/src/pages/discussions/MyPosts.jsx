@@ -1,25 +1,27 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
 import CreatePostCard from "../../components/CreatePostCard";
 import PostCard from "../../components/PostCard";
 
 export default function MyPosts() {
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
-
   const storedUser = JSON.parse(localStorage.getItem("user") || "{}");
   const realName = storedUser?.name || "Anonymous Student";
 
-  const fetchPosts = async () => {
-    try {
-      const res = await axios.get("http://localhost:5000/posts");
-      const userPosts = res.data.filter(p => p.author === realName);
-      setPosts(userPosts);
-    } catch (err) {
-      console.log(err);
-    } finally {
-      setLoading(false);
+  const [posts, setPosts] = useState([
+    {
+        _id: "mock-my-1",
+        title: "My first mock post on VJTI Portal",
+        content: "Testing if the posts are working purely on the frontend!",
+        tag: "General Feed",
+        author: realName,
+        upvotes: [],
+        comments: [],
+        createdAt: new Date().toISOString()
     }
+  ]);
+  const [loading, setLoading] = useState(false);
+
+  const fetchPosts = async () => {
+    // No-op for local mock
   };
 
   useEffect(() => {

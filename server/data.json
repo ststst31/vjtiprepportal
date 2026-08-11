@@ -250,6 +250,215 @@
         }
       ],
       "createdAt": "2026-08-06T17:32:42.076Z"
+    },
+    {
+      "_id": "3icohd9p5msp0ly4l",
+      "title": "Morgan Stanley IT Interview Experience (Selected)",
+      "content": "Hey everyone! Just wanted to share my experience interviewing for the Summer Analyst role at Morgan Stanley. The process consisted of 1 coding round and 3 technical interviews. Focus heavily on OOPs concepts and Data Structures (especially DP and graphs). I've attached my preparation notes below. Let me know if anyone has questions!",
+      "tag": "Internship Prep",
+      "linkUrl": "",
+      "author": "Kavya Iyer",
+      "upvotes": [
+        "zheip7v79msp0ly4l",
+        "3vjjzc6p1msp0ly4l",
+        "yjy7bxraamsp0ly4l",
+        "owxr5iuvxmsp0ly4l",
+        "1xvizvpo7msp0ly4l",
+        "2lq0j74ckmsp0ly4l",
+        "kmo4w5umpmsp0ly4l",
+        "drw4mwvlmmsp0ly4l",
+        "j74r56o5wmsp0ly4l",
+        "gvcehvkpnmsp0ly4l",
+        "9eg1nwetfmsp0ly4l",
+        "q0dg18q8imsp0ly4l",
+        "8khyp3fwrmsp0ly4l",
+        "bhaj36fukmsp0ly4l",
+        "xnneszlmamsp0ly4l",
+        "0r2px95pamsp0ly4l"
+      ],
+      "comments": [
+        {
+          "author": "Shruti Rao",
+          "content": "Congratulations! 🎉",
+          "createdAt": "2026-08-11T00:42:38.949Z"
+        },
+        {
+          "author": "Rohan Gupta",
+          "content": "Congratulations! 🎉",
+          "createdAt": "2026-08-11T03:24:57.256Z"
+        },
+        {
+          "author": "Neha Desai",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-11T05:37:52.547Z"
+        }
+      ],
+      "createdAt": "2026-08-11T16:53:10.609Z"
+    },
+    {
+      "_id": "ia2wojokmmsp0ly4l",
+      "title": "DBMS Notes for Endsems - B.Tech CS",
+      "content": "I've compiled all the crucial topics for our upcoming DBMS endsems, including SQL queries, Normalization (1NF to BCNF), and transaction concurrency control. Attached the Google Drive link. Hope it helps!",
+      "tag": "Branch Notes",
+      "linkUrl": "drive.google.com/dbms-notes-vjti",
+      "author": "Neha Desai",
+      "upvotes": [
+        "d491xsa0nmsp0ly4l",
+        "mm56s6ivbmsp0ly4l",
+        "dlzrk658fmsp0ly4l",
+        "of52cmenemsp0ly4l",
+        "sq03mrhuhmsp0ly4l",
+        "4huwhpdmnmsp0ly4l",
+        "oi8gvwqq5msp0ly4l",
+        "kug8s9kiamsp0ly4l"
+      ],
+      "comments": [
+        {
+          "author": "Priya Patel",
+          "content": "I'll be there, thanks for the heads up.",
+          "createdAt": "2026-08-11T18:20:31.780Z"
+        },
+        {
+          "author": "Rohan Gupta",
+          "content": "Does anyone have previous year question papers for this?",
+          "createdAt": "2026-08-11T09:17:21.984Z"
+        },
+        {
+          "author": "Kavya Iyer",
+          "content": "Thanks for the tip!",
+          "createdAt": "2026-08-11T18:00:51.368Z"
+        },
+        {
+          "author": "Pooja Menon",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-11T14:00:21.808Z"
+        }
+      ],
+      "createdAt": "2026-08-10T17:32:35.691Z"
+    },
+    {
+      "_id": "lsboquc6lmsp0ly4l",
+      "title": "Is the library open on weekends during exams?",
+      "content": "Does anyone know the exact timings for the main library this weekend? The circular was a bit confusing and I really need a quiet place to study.",
+      "tag": "Campus Life",
+      "linkUrl": "",
+      "author": "Rahul Verma",
+      "upvotes": [
+        "j9rpc5kl4msp0ly4l",
+        "se3z2cuxlmsp0ly4l",
+        "w5nqpmvi3msp0ly4l",
+        "6g1fkv7ommsp0ly4l",
+        "yadv6jh9emsp0ly4l",
+        "16veu2wztmsp0ly4l"
+      ],
+      "comments": [
+        {
+          "author": "Aarav Sharma",
+          "content": "I'll be there, thanks for the heads up.",
+          "createdAt": "2026-08-11T17:00:21.411Z"
+        },
+        {
+          "author": "Priya Patel",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-11T01:06:19.301Z"
+        }
+      ],
+      "createdAt": "2026-08-09T17:56:13.812Z"
+    },
+    {
+      "_id": "8pjgg8nulmsp0ly4l",
+      "title": "Data Structures practicals submission",
+      "content": "Reminder for the SY students: the final DSA practical journal submission is pre-poned to this Friday. Please ensure all 12 experiments are signed by the prof.",
+      "tag": "Exams",
+      "linkUrl": "",
+      "author": "Aarav Sharma",
+      "upvotes": [
+        "xkila4owhmsp0ly4l",
+        "k0pk3pg3emsp0ly4l",
+        "ije6q5dehmsp0ly4l",
+        "gwrkqqdinmsp0ly4l",
+        "44pby0amcmsp0ly4l",
+        "3mo1hxw9smsp0ly4l",
+        "arxlb4rvzmsp0ly4l",
+        "ocwckxr8omsp0ly4l",
+        "viluosa19msp0ly4l",
+        "fk7532xnimsp0ly4l"
+      ],
+      "comments": [
+        {
+          "author": "Sneha Joshi",
+          "content": "This is super helpful, thanks!",
+          "createdAt": "2026-08-10T20:35:00.060Z"
+        },
+        {
+          "author": "Neha Desai",
+          "content": "Appreciate the notes, lifesaver!",
+          "createdAt": "2026-08-11T08:26:24.944Z"
+        }
+      ],
+      "createdAt": "2026-08-08T17:54:42.627Z"
+    },
+    {
+      "_id": "k5cqnyi7cmsp0ly4l",
+      "title": "Tips for tackling the aptitude test for placements",
+      "content": "Aptitude tests are often the biggest hurdle in the initial shortlisting phase. I highly recommend practicing on IndiaBix and timing yourself. Speed and accuracy matter more than attempting every single question.",
+      "tag": "Internship Prep",
+      "linkUrl": "",
+      "author": "Aarav Sharma",
+      "upvotes": [
+        "qz02wnsarmsp0ly4l",
+        "qffojo5vzmsp0ly4l",
+        "su119u7r6msp0ly4l"
+      ],
+      "comments": [
+        {
+          "author": "Arjun Reddy",
+          "content": "Thanks for the tip!",
+          "createdAt": "2026-08-11T09:26:37.176Z"
+        },
+        {
+          "author": "Shruti Rao",
+          "content": "This is super helpful, thanks!",
+          "createdAt": "2026-08-11T14:21:04.914Z"
+        },
+        {
+          "author": "Arjun Reddy",
+          "content": "Appreciate the notes, lifesaver!",
+          "createdAt": "2026-08-11T07:31:07.957Z"
+        }
+      ],
+      "createdAt": "2026-08-07T18:39:17.162Z"
+    },
+    {
+      "_id": "zm01dt0q1msp0ly4l",
+      "title": "Technovanza core committee selections",
+      "content": "The interviews for the core committee of Technovanza are starting next week! If you are interested in event management or tech operations, make sure you fill out the forms circulated on the WhatsApp groups.",
+      "tag": "Campus Life",
+      "linkUrl": "",
+      "author": "Rohan Gupta",
+      "upvotes": [
+        "h6dhi8mqumsp0ly4l",
+        "aszxw4iolmsp0ly4l",
+        "h38dyrfskmsp0ly4l",
+        "cqpr05tugmsp0ly4l",
+        "92tnt02jumsp0ly4l",
+        "xtjvppad6msp0ly4l",
+        "06dvvezvzmsp0ly4l",
+        "s1ooj1d8dmsp0ly4l"
+      ],
+      "comments": [
+        {
+          "author": "Sneha Joshi",
+          "content": "This is super helpful, thanks!",
+          "createdAt": "2026-08-10T16:54:32.667Z"
+        },
+        {
+          "author": "Kavya Iyer",
+          "content": "This is super helpful, thanks!",
+          "createdAt": "2026-08-11T14:27:15.203Z"
+        }
+      ],
+      "createdAt": "2026-08-06T18:05:03.291Z"
     }
   ]
 }

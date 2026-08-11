@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 import CommentSection from "./CommentSection";
 
 export default function PostCard({ post }) {
@@ -14,20 +13,13 @@ export default function PostCard({ post }) {
   const hasUpvoted = localPost.upvotes?.includes(currentUserName);
 
   const handleVote = async () => {
-    try {
-      const res = await axios.put(
-        `http://localhost:5000/posts/${localPost._id}/vote`,
-        {},
-        {
-          headers: {
-            Authorization: `Bearer ${currentUserName}`
-          }
-        }
-      );
-      setLocalPost((prev) => ({ ...prev, upvotes: res.data.upvotes }));
-    } catch (err) {
-      console.error("Failed to vote", err);
-    }
+    setLocalPost((prev) => {
+      const upvotes = prev.upvotes || [];
+      const newUpvotes = upvotes.includes(currentUserName) 
+        ? upvotes.filter(u => u !== currentUserName)
+        : [...upvotes, currentUserName];
+      return { ...prev, upvotes: newUpvotes };
+    });
   };
 
   const handleCommentAdded = (newComment) => {

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 
 export default function CreatePostCard({ onPostCreated }) {
   const [newPostContent, setNewPostContent] = useState("");
@@ -16,37 +15,27 @@ export default function CreatePostCard({ onPostCreated }) {
     const email = storedUser?.email || "";
     const profilePic = storedUser?.profilePic || "";
 
-    try {
-      const res = await axios.post(
-        "http://localhost:5000/posts",
-        {
-          title: newPostTitle,
-          content: newPostContent,
-          tag: selectedCategory,
-          linkUrl: linkUrl,
-          author: authorName,
-          email: email,
-          profilePic: profilePic
-        },
-        {
-          headers: {
-            // Using authorName as mock user ID since JWT isn't used
-            Authorization: `Bearer ${authorName}`
-          }
-        }
-      );
+    const newPost = {
+      _id: Math.random().toString(36).substr(2, 9),
+      title: newPostTitle,
+      content: newPostContent,
+      tag: selectedCategory,
+      linkUrl: linkUrl,
+      author: authorName,
+      email: email,
+      profilePic: profilePic,
+      upvotes: [],
+      comments: [],
+      createdAt: new Date().toISOString()
+    };
 
-      setNewPostContent("");
-      setNewPostTitle("");
-      setLinkUrl("");
-      setShowLinkInput(false);
-      
-      if (onPostCreated) {
-        onPostCreated(res.data);
-      }
-    } catch (err) {
-      console.error(err);
-      alert("Failed to post");
+    setNewPostContent("");
+    setNewPostTitle("");
+    setLinkUrl("");
+    setShowLinkInput(false);
+    
+    if (onPostCreated) {
+      onPostCreated(newPost);
     }
   };
 

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 
 export default function CommentSection({ postId, comments, onCommentAdded }) {
   const [newComment, setNewComment] = useState("");
@@ -12,27 +11,17 @@ export default function CommentSection({ postId, comments, onCommentAdded }) {
     if (!newComment.trim() || submitting) return;
     setSubmitting(true);
 
-    try {
-      const res = await axios.post(
-        `http://localhost:5000/posts/${postId}/comment`,
-        { content: newComment },
-        {
-          headers: {
-            Authorization: `Bearer ${currentUserName}`
-          }
-        }
-      );
-      
-      setNewComment("");
-      if (onCommentAdded) {
-        onCommentAdded(res.data);
-      }
-    } catch (err) {
-      console.error(err);
-      alert("Failed to add comment");
-    } finally {
-      setSubmitting(false);
+    const commentObj = {
+      author: currentUserName,
+      content: newComment,
+      createdAt: new Date().toISOString()
+    };
+    
+    setNewComment("");
+    if (onCommentAdded) {
+      onCommentAdded(commentObj);
     }
+    setSubmitting(false);
   };
 
   return (
