@@ -1,0 +1,302 @@
+:root {
+  --brand: #2563eb;
+
+  --bg: #f5ff7fb;
+  --card: #ffffff;
+  --cardSoft: #f3f4f6;  
+  --text: #111827;
+  --textSoft: #6b7280;
+  --border: #e5e7eb;
+}
+
+body.dark {
+  --bg: #121212;
+  --card: #1e1e1e;
+  --cardSoft: #2a2a2a;  
+  --text: #f3f4f6;
+  --textSoft: #9ca3af;
+  --border: #2e2e2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.topBar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 0 40px;
+  height: 70px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  align-items: center;
+}
+
+.brandTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.topNav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.topBar .userSearchWrapper {
+  margin-left: 20px;
+}
+
+.userSearchWrapper,
+.topNav,
+.settingsContainer {
+  border-left: 1px solid var(--border);
+  padding-left: 20px;
+}
+
+.mainLayout {
+  display: grid;
+  grid-template-columns: 240px 1fr 280px;
+  gap: 20px;
+  max-width: 1300px;
+  margin: 20px auto;
+  align-items: start;
+}
+
+.leftWrapper {
+  position: sticky;
+  top: 90px;
+}
+
+.logoHeader {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.logoHeader img {
+  height: 140px;
+  width: auto;
+  display: block;
+  margin: 0 auto 6px;
+}
+
+.logoHeader h3 {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.leftSidebar {
+  background: #eef5ff;
+  border: 1px solid var(--border);
+  padding: 18px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 170px);
+}
+
+body.dark .leftSidebar {
+  background: var(--cardSoft);
+}
+
+.impLinks h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.impLinks ul {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.impLinks li {
+  margin-bottom: 8px;
+}
+
+.impLinks a {
+  text-decoration: none;
+  color: var(--text);
+  padding: 6px 8px;
+  border-radius: 6px;
+  display: block;
+  transition: background 0.2s ease;
+}
+
+.impLinks a:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+body.dark .impLinks a:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  text-align: center;
+  font-size: 12px;
+  color: var(--textSoft);
+}
+
+.rightSidebar {
+  background: #eef5ff;
+  border: 1px solid var(--border);
+  padding: 20px;
+  border-radius: 10px;
+  position: sticky;
+  top: 90px;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+
+body.dark .rightSidebar {
+  background: var(--cardSoft);
+}
+
+.branchGroup {
+  margin-bottom: 15px;
+}
+
+.branchGroup h4 {
+  font-size: 14px;
+  color: var(--brand);
+  margin-bottom: 6px;
+}
+
+.branchGroup ul {
+  padding-left: 15px;
+}
+
+.branchGroup li {
+  margin-bottom: 4px;
+}
+
+.mainContent {
+  padding: 40px;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+}
+
+.postCard {
+  background: var(--cardSoft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.postAvatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.postUserInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.postName {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.postDate {
+  font-size: 12px;
+  color: var(--textSoft);
+}
+
+.postContent {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+a[href$=".pdf"] {
+  color: var(--brand);
+}
+
+body.dark a[href$=".pdf"] {
+  color: #60a5fa;
+}
+
+.topBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  align-items: center;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.searchSection,
+.navSection,
+.settingsSection {
+  border-left: 1px solid var(--border);
+  padding-left: 20px;
+}
+
+.navSection {
+  justify-content: center;
+}
+
+.settingsSection {
+  justify-content: flex-end;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select {
+  background: var(--cardSoft);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+  color: var(--textSoft);
+}
+
+body.dark input[type="file"] {
+  background: var(--cardSoft);
+  color: var(--text);
+}
+
+body.dark .settingsContainer button {
+  background: var(--cardSoft);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+body.dark .settingsMenu {
+  background: var(--card);
+  border: 1px solid var(--border);
+}

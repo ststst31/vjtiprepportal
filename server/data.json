@@ -1,0 +1,255 @@
+{
+  "users": [],
+  "posts": [
+    {
+      "_id": "uuwh0yqkdmsozuvm8",
+      "title": "d",
+      "content": "s",
+      "tag": "General Feed",
+      "linkUrl": "",
+      "author": "Anonymous Student",
+      "email": "",
+      "profilePic": "",
+      "upvotes": [
+        "Anonymous Student"
+      ],
+      "comments": [
+        {
+          "author": "Anonymous Student",
+          "content": "ddfd",
+          "createdAt": "2026-08-11T18:29:03.665Z"
+        }
+      ],
+      "createdAt": "2026-08-11T18:28:50.960Z"
+    },
+    {
+      "_id": "rnc76khlkmsozxbkg",
+      "title": "Morgan Stanley IT Interview Experience (Selected)",
+      "content": "Hey everyone! Just wanted to share my experience interviewing for the Summer Analyst role at Morgan Stanley. The process consisted of 1 coding round and 3 technical interviews. Focus heavily on OOPs concepts and Data Structures (especially DP and graphs). I've attached my preparation notes below. Let me know if anyone has questions!",
+      "tag": "Internship Prep",
+      "linkUrl": "",
+      "author": "Rohan Gupta",
+      "upvotes": [
+        "e52wb6kupmsozxbkg",
+        "qahag04f9msozxbkg",
+        "vvp6vf602msozxbkg",
+        "rzw2sciovmsozxbkg",
+        "8zyr64d0imsozxbkg",
+        "nvxxgroc7msozxbkg",
+        "1akhe8j1gmsozxbkg",
+        "lvjhtgicvmsozxbkg"
+      ],
+      "comments": [
+        {
+          "author": "Aditya Nair",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-11T18:24:31.024Z"
+        },
+        {
+          "author": "Aditya Nair",
+          "content": "Does anyone have previous year question papers for this?",
+          "createdAt": "2026-08-11T01:16:39.370Z"
+        },
+        {
+          "author": "Vikram Malhotra",
+          "content": "Thanks for the tip!",
+          "createdAt": "2026-08-11T14:57:32.100Z"
+        },
+        {
+          "author": "Pooja Menon",
+          "content": "Does anyone have previous year question papers for this?",
+          "createdAt": "2026-08-10T18:38:42.597Z"
+        }
+      ],
+      "createdAt": "2026-08-11T15:51:00.780Z"
+    },
+    {
+      "_id": "7eiptbja7msozxbkg",
+      "title": "DBMS Notes for Endsems - B.Tech CS",
+      "content": "I've compiled all the crucial topics for our upcoming DBMS endsems, including SQL queries, Normalization (1NF to BCNF), and transaction concurrency control. Attached the Google Drive link. Hope it helps!",
+      "tag": "Branch Notes",
+      "linkUrl": "drive.google.com/dbms-notes-vjti",
+      "author": "Kavya Iyer",
+      "upvotes": [
+        "ad1xbglammsozxbkg",
+        "r0jqo889xmsozxbkg",
+        "vsdt28d5dmsozxbkg",
+        "fftmxataqmsozxbkg",
+        "vqgvgqy7kmsozxbkg",
+        "4e1e4hmk6msozxbkg",
+        "cydgfsnzvmsozxbkg",
+        "dd8qgukmbmsozxbkg",
+        "umk8f0qlfmsozxbkg",
+        "gpsugh1r7msozxbkg",
+        "3o6qd2dbnmsozxbkg",
+        "s9ixvi7kcmsozxbkg",
+        "cfmw1371lmsozxbkg",
+        "4r01p211kmsozxbkg",
+        "80vspweq9msozxbkg"
+      ],
+      "comments": [
+        {
+          "author": "Vikram Malhotra",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-11T00:42:14.929Z"
+        },
+        {
+          "author": "Priya Patel",
+          "content": "Congratulations! 🎉",
+          "createdAt": "2026-08-11T15:10:14.147Z"
+        },
+        {
+          "author": "Ishita Bose",
+          "content": "This is super helpful, thanks!",
+          "createdAt": "2026-08-11T03:40:45.542Z"
+        }
+      ],
+      "createdAt": "2026-08-10T16:53:47.698Z"
+    },
+    {
+      "_id": "3d62c3mtmmsozxbkg",
+      "title": "Is the library open on weekends during exams?",
+      "content": "Does anyone know the exact timings for the main library this weekend? The circular was a bit confusing and I really need a quiet place to study.",
+      "tag": "Campus Life",
+      "linkUrl": "",
+      "author": "Priya Patel",
+      "upvotes": [
+        "2ckf7chk5msozxbkg",
+        "zv34l2mo4msozxbkg",
+        "1to3d96x4msozxbkg",
+        "5qd8mhvfymsozxbkg",
+        "j3d4gv287msozxbkg",
+        "jhvizbj8cmsozxbkg"
+      ],
+      "comments": [
+        {
+          "author": "Ishita Bose",
+          "content": "Congratulations! 🎉",
+          "createdAt": "2026-08-11T13:29:29.435Z"
+        },
+        {
+          "author": "Rahul Verma",
+          "content": "Thanks for the tip!",
+          "createdAt": "2026-08-10T15:56:50.489Z"
+        },
+        {
+          "author": "Ishita Bose",
+          "content": "Do they focus more on System Design or purely DSA?",
+          "createdAt": "2026-08-10T19:04:19.393Z"
+        }
+      ],
+      "createdAt": "2026-08-09T16:37:40.089Z"
+    },
+    {
+      "_id": "3myrx2ckpmsozxbkg",
+      "title": "Data Structures practicals submission",
+      "content": "Reminder for the SY students: the final DSA practical journal submission is pre-poned to this Friday. Please ensure all 12 experiments are signed by the prof.",
+      "tag": "Exams",
+      "linkUrl": "",
+      "author": "Aarav Sharma",
+      "upvotes": [
+        "hzday6y49msozxbkg",
+        "yx30pgqnbmsozxbkg",
+        "mz0ew7yh7msozxbkg",
+        "w80vl7jf6msozxbkg",
+        "22u51qvfamsozxbkg",
+        "o1y389zmimsozxbkg",
+        "4mqa7uqr1msozxbkg",
+        "bxrtzhn8rmsozxbkg",
+        "5aax8hfoamsozxbkg"
+      ],
+      "comments": [
+        {
+          "author": "Aditya Nair",
+          "content": "This is super helpful, thanks!",
+          "createdAt": "2026-08-11T11:00:52.361Z"
+        },
+        {
+          "author": "Ishita Bose",
+          "content": "I'll be there, thanks for the heads up.",
+          "createdAt": "2026-08-11T09:04:55.892Z"
+        }
+      ],
+      "createdAt": "2026-08-08T17:08:12.425Z"
+    },
+    {
+      "_id": "lip2cr107msozxbkg",
+      "title": "Tips for tackling the aptitude test for placements",
+      "content": "Aptitude tests are often the biggest hurdle in the initial shortlisting phase. I highly recommend practicing on IndiaBix and timing yourself. Speed and accuracy matter more than attempting every single question.",
+      "tag": "Internship Prep",
+      "linkUrl": "",
+      "author": "Arjun Reddy",
+      "upvotes": [
+        "56an9az1smsozxbkg",
+        "tilnbcs00msozxbkg",
+        "19f06o72nmsozxbkg",
+        "7ltd13x8fmsozxbkg",
+        "9pzjvszmpmsozxbkg",
+        "psec0p2qmmsozxbkg",
+        "lh7xx72fimsozxbkg",
+        "frak3q83zmsozxbkg",
+        "2hfhptub8msozxbkg",
+        "zpcukbyapmsozxbkg",
+        "oqrvituuamsozxbkg"
+      ],
+      "comments": [
+        {
+          "author": "Ananya Singh",
+          "content": "Thanks for the tip!",
+          "createdAt": "2026-08-11T00:07:12.821Z"
+        },
+        {
+          "author": "Ishita Bose",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-10T21:17:00.916Z"
+        },
+        {
+          "author": "Sneha Joshi",
+          "content": "Do they focus more on System Design or purely DSA?",
+          "createdAt": "2026-08-11T16:51:00.946Z"
+        }
+      ],
+      "createdAt": "2026-08-07T17:48:44.522Z"
+    },
+    {
+      "_id": "a69t91ijdmsozxbkg",
+      "title": "Technovanza core committee selections",
+      "content": "The interviews for the core committee of Technovanza are starting next week! If you are interested in event management or tech operations, make sure you fill out the forms circulated on the WhatsApp groups.",
+      "tag": "Campus Life",
+      "linkUrl": "",
+      "author": "Ishita Bose",
+      "upvotes": [
+        "iidrkqz4zmsozxbkg",
+        "gybklh7o6msozxbkg",
+        "5u18ksiksmsozxbkg",
+        "d9nwml1zvmsozxbkg",
+        "7dmoxjy1gmsozxbkg",
+        "cwog2ndg9msozxbkg",
+        "qfdrmmowdmsozxbkg",
+        "su3xo37trmsozxbkg",
+        "jrv5ckqlgmsozxbkg",
+        "gao7zuhnzmsozxbkg",
+        "qjzlukmflmsozxbkg",
+        "pxqld5rsvmsozxbkg"
+      ],
+      "comments": [
+        {
+          "author": "Aditya Nair",
+          "content": "Can you share the link again? It's not working for me.",
+          "createdAt": "2026-08-11T18:11:45.486Z"
+        },
+        {
+          "author": "Kabir Kapoor",
+          "content": "Thanks for the tip!",
+          "createdAt": "2026-08-11T13:02:28.731Z"
+        },
+        {
+          "author": "Arjun Reddy",
+          "content": "Does anyone have previous year question papers for this?",
+          "createdAt": "2026-08-10T23:49:54.839Z"
+        }
+      ],
+      "createdAt": "2026-08-06T17:32:42.076Z"
+    }
+  ]
+}
