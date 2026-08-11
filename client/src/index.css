@@ -660,32 +660,38 @@ body.dark .settingsContainer button {
 body.dark .settingsMenu {
   background: var(--card);
   border: 1px solid var(--border);
-} 
- / *   M o b i l e   R e s p o n s i v e n e s s   * /  
- @ m e d i a   ( m a x - w i d t h :   7 6 8 p x )   {  
-     . m a i n L a y o u t   {  
-         g r i d - t e m p l a t e - c o l u m n s :   1 f r   ! i m p o r t a n t ;  
-         p a d d i n g :   0   1 0 p x ;  
-     }  
-     . r i g h t S i d e b a r   {  
-         d i s p l a y :   n o n e ;  
-     }  
-     . t o p B a r   {  
-         d i s p l a y :   f l e x ;  
-         p a d d i n g :   0   1 0 p x ;  
-     }  
-     . l a y o u t W r a p p e r   {  
-         p a d d i n g - l e f t :   0   ! i m p o r t a n t ;  
-     }  
-     . m a i n C o n t e n t   {  
-         p a d d i n g :   2 0 p x   1 0 p x ;  
-     }  
-     . b r a n d T i t l e   {  
-         d i s p l a y :   n o n e ;  
-     }  
-     . u s e r S e a r c h W r a p p e r ,   . t o p N a v ,   . s e t t i n g s C o n t a i n e r   {  
-         b o r d e r - l e f t :   n o n e ;  
-         p a d d i n g - l e f t :   5 p x ;  
-     }  
- }  
- 
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .mainLayout {
+    grid-template-columns: 1fr !important;
+    padding: 0 10px;
+    margin: 10px auto;
+  }
+  .rightSidebar {
+    display: none;
+  }
+  .topBar {
+    display: flex !important;
+    padding: 0 10px;
+    height: 60px !important;
+    overflow-x: auto;
+  }
+  .layoutWrapper {
+    padding-left: 0 !important;
+  }
+  .mainContent {
+    padding: 20px 10px;
+  }
+  .brandText {
+    display: none !important;
+  }
+  .searchContainer {
+    max-width: 150px;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
